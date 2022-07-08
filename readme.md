@@ -18,7 +18,7 @@ Make sure Mysql and node are available in the local computer as well as a softwa
 
 ## Usage  
 
-Once the server is synced with the data base you can test the site's functionality by making http request including get, post, put and delete. go to the routes foled  to see the syntax in the .js files. you can also see the video demo to see how it works, please follow the link  
+Once the server is synced with the data base you can test the site's functionality by making http request including get, post, put and delete. go to the routes folder  to see the syntax in the .js files. you can also see the video demo to see how it works, please follow the link  
 
 
 ## Questions  
