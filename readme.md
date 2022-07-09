@@ -14,11 +14,11 @@ This repository contains the back-end of what would be an ecommerce site. In ord
 
 ## Installation  
 
-Make sure Mysql and node are available in the local computer as well as a software like insomia to test HTTP requests. First download the files, then, open a terminal in the folder containing all files, run the command "npm install", following this you need to run the schema file by either opening a mysql session and then copy and paste the commands from the schema.sql file or by running the file from the terminal. Once the database is created in the previous step, enter the password and user to access mysql in the corresponding field in the env file, then, go again to the terminal and run the command "node ./seeds/index.js to populate the tables or models. Now the ecommerce site is ready to process CRUD operations. Start the server by running the command "npm start" in the terminal. this will sync the data base and the server which is now listening in the local default port 3001.  
+Make sure Mysql and node are available in the local computer as well as a software like insomia to test HTTP requests. First download the files, then, open a terminal in the folder containing all files, run the command "npm install", following this, the schema file must be run by either opening a sql session and then copy and paste the commands from the schema.sql file or by running the file from the terminal. Once the database is created in the previous step, password and user must be enter to access mysql in the corresponding field in the env file, then, go again to the terminal and run the command "node ./seeds/index.js to populate the tables or models. Now the ecommerce site is ready to process CRUD operations. Start the server by running the command "npm start" in the terminal. this will sync the data base and the server which is now listening in the local default port 3001.  
 
 ## Usage  
 
-Once the server is synced with the data base you can test the site's functionality by making http request including get, post, put and delete. go to the routes folder  to see the syntax in the .js files. you can also see the video demo to see how it works, please follow the link https://drive.google.com/file/d/1be0OeuGhn-dik8rORygaJorSY7Y9Iko_/view?usp=sharing 
+Once the server is synced with the data base the site's functionality can be tested by making http request including get, post, put and delete. go to the routes folder  to see the syntax in the .js files for CRUD operaions. a video demo to see how it works is available, please follow the link https://drive.google.com/file/d/1be0OeuGhn-dik8rORygaJorSY7Y9Iko_/view?usp=sharing 
 
 
 ## Questions  
